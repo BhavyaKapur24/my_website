@@ -10,7 +10,7 @@ params:
     subtitle: |-
       A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
       AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: Hi, my name is Forty
+    title: Hi, my name is Bhavya
   blog: {}
   contact:
     address:
@@ -22,7 +22,7 @@ params:
     buttonSend: Send message
     email:
       - email: example@domain.com
-        title: Email
+        title: bhavyakapur2404@gmail.com
     enable: yes
     phone:
       - phone: (000) 000-0000 x1234
@@ -56,9 +56,9 @@ params:
         url: https://www.github.com
       - icon: fa-linkedin
         label: LinkedIn
-        url: https://www.linkedin.com
+        url: https://www.linkedin.com/in/BhavyaKapur/
   image: ''
-  name: Your name
+  name: Bhavya Kapur
   navigation:
     button1:
       - name: Get Started
