@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: https://bhavyakapur.netlify.app/
 languageCode: en-us
 title: Forty
 theme: forty
@@ -81,9 +81,9 @@ params:
   tiles:
     enable: yes
     showcase:
-      - image: pic01.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Aliquam
+      - image: lbs.jpg
+        subtitle: New Ipsum Dolor Sit Amet
+        title: New Aliquam
         url: blogs/aliquam
       - image: pic02.jpg
         subtitle: Feugiat Amet Tempus
