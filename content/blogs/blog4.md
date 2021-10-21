@@ -3,10 +3,7 @@ categories:
 - ""
 - ""
 date: "2017-10-31T22:42:51-05:00"
-description: Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna
-  sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa
-  sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem
-  consequat tincidunt. Vivamus et sagittis tempus.
+description: 
 draft: false
 image: me.jpg
 keywords: ""
@@ -21,6 +18,9 @@ I have a zest for learning and keenness to gain as much knowledge and experience
 I have interned at various organizations including:
 
 KPMG: Strategy and Operations
+
 Savills: Summer Intern-International Markets
+
 Kinduz Consulting: MSME Division
+
 Investors Avenue: MSME Division

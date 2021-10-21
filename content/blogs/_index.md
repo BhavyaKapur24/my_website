@@ -5,5 +5,3 @@ image: pic02.jpg
 slug: blogs
 title: Blogs 
 ---
-
-My blogs about Fintech
