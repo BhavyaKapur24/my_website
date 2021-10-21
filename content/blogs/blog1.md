@@ -8,7 +8,7 @@ draft: false
 image: cryptocurrencies.jpg
 keywords: ""
 slug: ipsum
-title: The Future of Cryptocurrency
+title: Should you invest in Cryptocurrency? 
 ---
 
 Cryptocurrency is a digital alternative to our standard cash money that holds its value in terms of the supply and demand rather than a centralized regulatory authority. It is denominated in terms of virtual tokens and its system is based on cryptographic proof instead of trust. The cryptographic proof comes in the form of transactions that are verified and recorded in a form of program called a blockchain.

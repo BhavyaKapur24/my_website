@@ -9,7 +9,7 @@ params:
     buttonText: Get Started
     subtitle: |-
       Get started to know more about my work
-    title: Hi, my name is Bhavya
+    title: Hi, my name is Bhavya Kapur!
   blog: {}
   contact:
     address:
@@ -24,8 +24,8 @@ params:
         title: Email address
     enable: yes
     phone:
-      - phone: 
-        title: Phone
+      - phone: +44 7879999570 
+        title: 
   custom_css: []
   custom_js: []
   description: Your description
@@ -92,18 +92,13 @@ params:
         subtitle: Differences between directors
         url: blogs/xyz
         title: IMDB ratings
-      - image: Cryptocurrencies.jpg
+      - image: cryptocurrencies.jpg
         subtitle: 
         title: The Future of Cryptocurrencies
         url: blogs/ipsum
   two:
     buttonText: Get Started
     enable: yes
-    subtitle: "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
-      \r\n    Mauris aliquet magna magna sed nunc rhoncus pharetra. \r\n    Pellentesque
-      condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia
-      pellentesque lorem ipsum dolor. \r\n    Nullam et orci eu lorem consequat tincidunt.
-      Vivamus et sagittis libero.\r\n    Mauris aliquet magna magna sed nunc rhoncus
-      amet pharetra et feugiat tempus."
-    title: Massa libero
+    subtitle: "The website is a compilation of my work in Data Analytics and blogs. To know more about my work, feel free to contact me on my social media handles."
+    title: About My Work
     url: blogs
