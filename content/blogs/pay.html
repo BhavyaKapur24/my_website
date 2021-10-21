@@ -1,5 +1,5 @@
 ---
-title: "Pay Discrimination"
+title: "Omega Group plc- Pay Discrimination"
 description: 
 date: '2017-10-31T22:26:09-05:00'
 image: pay gap.jpg
@@ -11,8 +11,6 @@ draft: no
 <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
 
-<div id="omega-group-plc--pay-discrimination" class="section level1">
-<h1>Omega Group plc- Pay Discrimination</h1>
 <p>At the last board meeting of Omega Group Plc., the headquarters of a large multinational company, the issue was raised that women were being discriminated in the company, in the sense that the salaries were not the same for male and female executives. A quick analysis of a sample of 50 employees (of which 24 men and 26 women) revealed that the average salary for men was about 8,700 higher than for women. This seemed like a considerable difference, so it was decided that a further analysis of the company salaries was warranted.</p>
 <p>You are asked to carry out the analysis. The objective is to find out whether there is indeed a significant difference between the salaries of men and women, and whether the difference is due to discrimination or whether it is based on another, possibly valid, determining factor.</p>
 <div id="loading-the-data" class="section level2">
@@ -100,7 +98,7 @@ t.test(salary~gender,data=omega)</code></pre>
              order=c(&quot;male&quot;,&quot;female&quot;))
  diff_salary %&gt;% 
    visualize()</code></pre>
-<p><img src="/blogs/IMDB_files/figure-html/hypothesis_testing-1.png" width="648" style="display: block; margin: auto;" /></p>
+<p><img src="/blogs/pay_files/figure-html/hypothesis_testing-1.png" width="648" style="display: block; margin: auto;" /></p>
 <blockquote>
 <p>What can you conclude from your analysis? A couple of sentences would be enough</p>
 </blockquote>
@@ -174,7 +172,7 @@ t.test(experience~gender,data=omega)</code></pre>
              order=c(&quot;male&quot;,&quot;female&quot;))
  diff_experience %&gt;% 
    visualize()</code></pre>
-<p><img src="/blogs/IMDB_files/figure-html/unnamed-chunk-1-1.png" width="648" style="display: block; margin: auto;" /></p>
+<p><img src="/blogs/pay_files/figure-html/unnamed-chunk-1-1.png" width="648" style="display: block; margin: auto;" /></p>
 <p>At any reasonable significance level we can reject the H0 in favour of H1 - there is a significant difference between the experience of executives of different gender. This can be an explanation for salary difference.</p>
 </div>
 <div id="relationship-salary---experience" class="section level2">
@@ -191,7 +189,7 @@ ggplot(aes(x = experience, y = salary, color = gender))+
        title = &quot;Relationship between experience and salary&quot;) +
   theme(legend.position = &quot;none&quot;) +
   facet_wrap(~ gender, scales = &quot;free&quot;)</code></pre>
-<p><img src="/blogs/IMDB_files/figure-html/salary_exp_scatter-1.png" width="648" style="display: block; margin: auto;" /></p>
+<p><img src="/blogs/pay_files/figure-html/salary_exp_scatter-1.png" width="648" style="display: block; margin: auto;" /></p>
 </div>
 <div id="check-correlations-between-the-data" class="section level2">
 <h2>Check correlations between the data</h2>
@@ -200,10 +198,9 @@ ggplot(aes(x = experience, y = salary, color = gender))+
   select(gender, experience, salary) %&gt;% #order variables they will appear in ggpairs()
   ggpairs(aes (colour = gender, alpha = 0.3))+
   theme_bw()</code></pre>
-<p><img src="/blogs/IMDB_files/figure-html/ggpairs-1.png" width="648" style="display: block; margin: auto;" /></p>
+<p><img src="/blogs/pay_files/figure-html/ggpairs-1.png" width="648" style="display: block; margin: auto;" /></p>
 <blockquote>
 <p>Look at the salary vs experience scatterplot. What can you infer from this plot? Explain in a couple of sentences</p>
 </blockquote>
 <p>From the plot we can infer that salary and experience are positively correlated. In fact, salary increases as experience increases. We can also infer that salary variability is highest in the first years of experiences, then it decreases when experiences in between 1 and 15 years, and then it increases again for employees with several years of experience.</p>
-</div>
 </div>

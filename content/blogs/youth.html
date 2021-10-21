@@ -269,7 +269,7 @@ glimpse(yrbss)</code></pre>
 <pre class="r"><code>  yrbss %&gt;% 
     ggplot(aes(x = weight))+
     geom_density()</code></pre>
-<p><img src="/blogs/homework3_Final_files/figure-html/eda_on_weight-1.png" width="648" style="display: block; margin: auto;" />
+<p><img src="/blogs/youth_files/figure-html/eda_on_weight-1.png" width="648" style="display: block; margin: auto;" />
 Missing 1004 observations.</p>
 <p>A more insightful graph would be something like this:</p>
 <pre class="r"><code>yrbss %&gt;% 
@@ -278,7 +278,7 @@ ggplot(aes(x = factor(physically_active_7d))) +
   geom_boxplot(aes(y = weight)) +
   labs(x=&quot;Activity level&quot;,
        y=&quot;weight&quot;)</code></pre>
-<p><img src="/blogs/homework3_Final_files/figure-html/unnamed-chunk-2-1.png" width="648" style="display: block; margin: auto;" /></p>
+<p><img src="/blogs/youth_files/figure-html/unnamed-chunk-2-1.png" width="648" style="display: block; margin: auto;" /></p>
 <p>Next, consider the possible relationship between a high schooler’s weight and their physical activity. Plotting the data is a useful first step because it helps us quickly visualize trends, identify strong associations, and develop research questions.</p>
 <p>Let’s create a new variable in the dataframe <code>yrbss</code>, called <code>physical_3plus</code> , which will be <code>yes</code> if they are physically active for at least 3 days a week, and <code>no</code> otherwise. You may also want to calculate the number and % of those who are and are not active for more than 3 days. Use the <code>count()</code> function and see if you get the same results as <code>group_by()... summarise()</code></p>
 <pre class="r"><code># create a new variable
@@ -320,7 +320,7 @@ ci_prop_not_excercise</code></pre>
   theme_bw() +
   labs(x = &quot;weight&quot;,
        y = &quot;Is person physically active?&quot;)</code></pre>
-<p><img src="/blogs/homework3_Final_files/figure-html/boxplot-1.png" width="648" style="display: block; margin: auto;" />
+<p><img src="/blogs/youth_files/figure-html/boxplot-1.png" width="648" style="display: block; margin: auto;" />
 No obvious relationship can be spotted from this particular graph. Didn’t expect anything since we should’t bring our biases into the classroom.</p>
 </div>
 <div id="confidence-interval" class="section level2">
@@ -390,12 +390,12 @@ ci %&gt;%
 <p>We can visualize this null distribution with the following code:</p>
 <pre class="r"><code>ggplot(data = null_dist, aes(x = stat)) +
   geom_histogram()</code></pre>
-<p><img src="/blogs/homework3_Final_files/figure-html/unnamed-chunk-4-1.png" width="648" style="display: block; margin: auto;" /></p>
+<p><img src="/blogs/youth_files/figure-html/unnamed-chunk-4-1.png" width="648" style="display: block; margin: auto;" /></p>
 <p>Now that the test is initialized and the null distribution formed, we can visualise to see how many of these null permutations have a difference of at least <code>obs_stat</code> of 1.77?</p>
 <p>We can also calculate the p-value for your hypothesis test using the function <code>infer::get_p_value()</code>.</p>
 <pre class="r"><code>null_dist %&gt;% visualize() +
   shade_p_value(obs_stat = obs_diff, direction = &quot;two-sided&quot;)</code></pre>
-<p><img src="/blogs/homework3_Final_files/figure-html/unnamed-chunk-5-1.png" width="648" style="display: block; margin: auto;" /></p>
+<p><img src="/blogs/youth_files/figure-html/unnamed-chunk-5-1.png" width="648" style="display: block; margin: auto;" /></p>
 <pre class="r"><code>null_dist %&gt;%
   get_p_value(obs_stat = obs_diff, direction = &quot;two_sided&quot;)</code></pre>
 <pre><code>## # A tibble: 1 x 1
