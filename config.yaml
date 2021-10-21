@@ -23,8 +23,8 @@ params:
       - email: bkapur.mfa2022@london.edu
         title: Email address
     enable: yes
-    #phone:
-      #- phone: 
+    phone:
+      - phone: +44 7879999570
         title: 
   custom_css: []
   custom_js: []
