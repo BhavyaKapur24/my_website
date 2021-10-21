@@ -23,8 +23,8 @@ params:
       - email: bkapur.mfa2022@london.edu
         title: Email address
     enable: yes
-    phone:
-      - phone: 
+    #phone:
+      #- phone: 
         title: 
   custom_css: []
   custom_js: []
@@ -66,7 +66,7 @@ params:
      # - name: Elements
       #  url: elements.html
     menu: Menu
-    subtitle: By HTML5 Up
+    subtitle:
     title: Analytics Mania
   tiles:
     enable: yes
@@ -90,6 +90,6 @@ params:
   two:
     buttonText: Get Started
     enable: yes
-    subtitle: "The website is a compilation of my work in Data Analytics and blogs. To know more about my work, feel free to contact me on my social media handles."
+    subtitle: "The website is a compilation of my work in Data Analytics and also includes a personal blog I wrote. To know more about my work, feel free to contact me on my social media handles."
     title: About My Work
     url: blogs
