@@ -1,6 +1,6 @@
 baseURL: https://bhavyakapur.netlify.app/
 languageCode: en-us
-title: Forty
+title: Welcome to my world!
 theme: forty
 googleAnalytics: ''
 disqusShortname: ''
@@ -8,24 +8,23 @@ params:
   banner:
     buttonText: Get Started
     subtitle: |-
-      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
-      AND RELEASED UNDER THE CREATIVE COMMONS.
+      Get started to know more about my work
     title: Hi, my name is Bhavya
   blog: {}
   contact:
     address:
-      - city: City, ST 00000
-        country: Country
-        street: Street
+      - city: London
+        country: United Kingdom
+        street: Park Road
         title: Address
     buttonClear: Clear
     buttonSend: Send message
     email:
-      - email: example@domain.com
-        title: bhavyakapur2404@gmail.com
+      - email: bkapur.mfa2022@london.edu
+        title: Email address
     enable: yes
     phone:
-      - phone: (000) 000-0000 x1234
+      - phone: 
         title: Phone
   custom_css: []
   custom_js: []
@@ -38,9 +37,9 @@ params:
     copyright: Company Name
     enable: yes
     quicklinks:
-      - alt: HTML5 UP
-        text: 'Design: '
-        url: https://www.html5up.net
+      - alt: London Business School
+        text: ''
+        url: https://www.london.edu
     social:
       - icon: fa-twitter
         label: Twitter
@@ -77,33 +76,25 @@ params:
         url: elements.html
     menu: Menu
     subtitle: By HTML5 Up
-    title: Forty
+    title: Analytics Mania
   tiles:
     enable: yes
     showcase:
-      - image: lbs.jpg
-        subtitle: New Ipsum Dolor Sit Amet
-        title: New Aliquam
+      - image: delhi.jpeg
+        subtitle: 
+        title: My Journey
         url: blogs/aliquam
       - image: pic02.jpg
         subtitle: Feugiat Amet Tempus
-        title: Tempus
-        url: blogs/tempus
-      - image: pic03.jpg
-        subtitle: Lorem Etiam Nullam
-        title: Magna
+        title: Youth Risk Behavior Surveillance 
         url: blogs/magna
-      - image: pic04.jpg
-        subtitle: Nisl Sed Aliquam
-        title: Ipsum
-        url: blogs/ipsum
-      - image: pic05.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Consequat
-        url: blogs/ipsum
-      - image: pic06.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Etiam
+      - image: pic03.jpg
+        subtitle: Differences between directors
+        url: blogs/xyz
+        title: IMDB ratings
+      - image: Cryptocurrencies.jpg
+        subtitle: 
+        title: The Future of Cryptocurrencies
         url: blogs/ipsum
   two:
     buttonText: Get Started
